@@ -52,7 +52,7 @@ RUN apt-get update && \
         libboost-date-time1.74.0 libboost-chrono1.74.0 libboost-filesystem1.74.0 \
         libboost-iostreams1.74.0 libboost-system1.74.0 libboost-thread1.74.0 \
         expat liblua5.4-0 && \
-    rm -rf /var/lib/apt/lists/* && \
+#    rm -rf /var/lib/apt/lists/* && \
 # add /usr/local/lib to ldconfig to allow loading libraries from there
     ldconfig /usr/local/lib
 
